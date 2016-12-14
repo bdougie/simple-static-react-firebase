@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+  
+[template.environment]
+  NODE_ENV = "production"
+  API_KEY = "apiKey"
+  AUTH_DOMAIN = "projectId.firebaseapp.com"
+  DATABASE_URL = "https://databaseName.firebaseio.com"
+  STORAGE_BUCKET = "bucket.appspot.com"
